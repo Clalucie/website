@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+  	font-family: 'Lora', serif;
+  	font-size: 18px;
+  	margin: 0px;
+    background-image: url("image/fond.jpeg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la carte */
+    background-position: center; /* Centre l'image à l'intérieur de la carte */
+    background-color: #f0f0f0; /* Couleur de fond de secours */
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre portée pour ajouter de la profondeur */
+  letter-spacing: 2px; /* Espacement entre les lettres */
+  text-align: center; /* Centrer le texte */
+}
+a {
+  text-decoration: none;
+}
+h1 
